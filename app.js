@@ -1,5 +1,10 @@
 console.log("Its working");
 
+const bookSearch = ()=> {
+    console.log("this function runs!")
+}
+
+document.getElementById('button').addEventListener('click', bookSearch, false);
 
 google.books.load();
 
@@ -14,3 +19,6 @@ $( () => {
 
 
 });
+
+
+//google api key = AIzaSyBJYaK4RGQCnknSQWyjqRBBdD3gLEIpuAUs
