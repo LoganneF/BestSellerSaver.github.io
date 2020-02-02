@@ -22,6 +22,7 @@ let bookSearch = ()=> {
             document.getElementById("byline").innerHTML = result.results["0"].byline;
     }).fail(function(err) {
         throw err;
+        //need message to user. its super picky about titles
     });
 }
 
