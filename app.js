@@ -16,7 +16,10 @@ let bookSearch = ()=> {
         method: 'GET',
     }).done(function(result){
         console.log(result);
-            document.getElementById("headline").innerHTML = result.results["0"].book_title;
+            document.getElementById("title").innerHTML = result.results["0"].book_title;
+            document.getElementById("author").innerHTML = result.results["0"].book_author;
+            document.getElementById("summary").innerHTML = result.results["0"].summary;
+            document.getElementById("byline").innerHTML = result.results["0"].byline;
     }).fail(function(err) {
         throw err;
     });
