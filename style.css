@@ -7,7 +7,30 @@ html {
     background: radial-gradient(circle, rgba(0,0,0,1) 68%, rgba(123,122,130,1) 95%);
 }
 
+h1 {
+    font-size: 3vw;
+    color: pink;
+  }
+  
+  h2{
+    font-size: 1vw;
+  }
+
+  input {
+    width: 300px;
+    padding: 1em;
+  }
+  
+  input:focus {
+    outline: none;
+    background: var(--grey-ice-blue);
+  }
+  
+
 .bookInfo {
     border: 1px solid white;
     color: whitesmoke;
+    width: 90%;
+    margin: auto;
+    margin-top: 1em;
 }
