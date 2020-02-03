@@ -34,7 +34,29 @@
         <div id="image"></div>
         <div id="results"></div>
     </div>
-  
+    <!-- DRAG/DROP ZONE -->
+    <div class="wrapper">
+        <div class="dragzone" id="box">
+            <div id="card1" class="card" draggable="true" ondragstart="dragStart(event)">
+                card 1
+            </div>
+            <div id="card2" class="card" draggable="true" ondragstart="dragStart(event)">
+                card 2
+            </div>
+            <div id="card3" class="card" draggable="true" ondragstart="dragStart(event)">
+                card 3
+            </div>
+            <div id="card4" class="card" draggable="true" ondragstart="dragStart(event)">
+                card 4
+            </div>
+            <div id="card5" class="card" draggable="true" ondragstart="dragStart(event)">
+                card 5
+            </div>
+        </div>
+
+        <div class="dropzone" id="box" ondragover="allowDrop(event)" ondrop="drop(event)">
+        </div>
+    </div>
     
 </body>
 </html>
