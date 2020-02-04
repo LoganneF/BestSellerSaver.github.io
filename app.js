@@ -47,6 +47,7 @@ let bookSearch = ()=> {
             document.getElementById("summary4").innerHTML = result.results.lists["4"].books["4"].description
             document.getElementById("rank4").innerHTML = result.results.lists["4"].books["4"].rank
             document.getElementById("image4").innerHTML = result.results.lists["4"].books["4"].book_image
+
     }).fail(function(err) {
         throw err;
         //need message to user. its super picky about titles
@@ -55,8 +56,11 @@ let bookSearch = ()=> {
 
 
 
-document.getElementById('button').addEventListener('click', bookSearch, false);
+document.getElementById('search').addEventListener('click', bookSearch, false);
 
+$('.card').on('click', function(){
+    $(this).toggleClass('show-description');
+});
 });
 
 // DRAG/DROP JS

@@ -1,48 +1,20 @@
 
-body {
-    text-align: center;
-    color: white;
-   
-}
-html {
-    background: radial-gradient(circle, rgba(0,0,0,1) 68%, rgba(123,122,130,1) 95%);
-}
-
-h1 {
-    font-size: 3vw;
-    color: blue;
-  }
-  
-  h2{
-    font-size: 1vw;
-  }
-
-  input {
-    width: 300px;
-    padding: 1em;
-  }
-  
-  input:focus {
-    outline: none;
-    background: var(--grey-ice-blue);
-  }
-  
-
 .bookInfo {
     border: 1px solid white;
-    color:  blue;
+    color:  black;
     width: 90%;
     margin: auto;
     margin-top: 1em;
+    font-size: small;
 }
+
+
 
 /* DRAG/DROP STYLING */
 .wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 10px;
-  background-color: black;
-  color: #444;
 }
 
 #box {
@@ -50,13 +22,31 @@ h1 {
   color: #fff;
   border-radius: 5px;
   padding: 20px;
-  font-size: 150%;
-  height: 100%;
+  height: 600px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
 }
 
 .card {
   background-color: pink;
   color: black;
   padding: 5px;
-  margin: 4px;
+  height: 150px;
+  width: 250px;
+  background-size: cover;
+  position: relative;
+  margin: 40px 0 0 0;
+  border: 1px solid #E9D8D8;
+  border-radius: 12px;
+ 
+  
+  
+
+}
+
+
+
+@media (max-width:959px) {
+
 }
