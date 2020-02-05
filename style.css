@@ -47,7 +47,8 @@ button {
   border: 1px solid blueviolet;
   border-radius: 5px;
   padding: 20px;
-  height: 800px;
+  height: 2v;
+  width: 2v;
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
@@ -71,12 +72,22 @@ button {
   color: #302e41;
 }
 .welcome {
-  height: 170px;
-  width: 55%;
+  height: 2v;
+  width: 45%;
   position: relative;
   font-size: large;
-  padding-top: 5%;
+  margin-top: 100px;
+  margin-bottom: 0px;
+  margin-left: 70px;
+  padding: 30px;
+  border: 5px solid whitesmoke;
  
+}
+a:link {
+  color: #4a41fa;
+}
+a:visited {
+  color: #4a41fa;
 }
 
 .land_img {
@@ -97,9 +108,11 @@ button {
   h1 {
     font-size: small;
   }
+
+
     #box {
-    height: 100%;
-    width: 80%;
+    height: .5v;
+    width: 1v
   }
   .card {
     width: 50%;
@@ -115,7 +128,7 @@ button {
   }
 
   .welcome {
-   height: 20%;
+   height: 2vh;
    font-size: small;
   }
   }

@@ -13,7 +13,7 @@ Landing page with introduction of NYT best sellers that leads user to their "she
 
 Main page has a generate button at the top that fills 5 cards, each with brief info on the current top five best sellers.
 
-There are two columns. Left column holds current book info, right column is user's shelf. User can drag cards to right column to store them on the shelf
+There are two columns. Left column holds current book info, right column is user's bookshelf. User can drag cards to right column to store them on the shelf
 
 
 The API:
