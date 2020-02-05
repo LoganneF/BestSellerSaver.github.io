@@ -58,9 +58,7 @@ let bookSearch = ()=> {
 
 document.getElementById('search').addEventListener('click', bookSearch, false);
 
-$('.card').on('click', function(){
-    $(this).toggleClass('show-description');
-});
+
 });
 
 // DRAG/DROP JS
