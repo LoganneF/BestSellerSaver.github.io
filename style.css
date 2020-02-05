@@ -1,8 +1,12 @@
 header  {
-  height: 200px;
+  height: 100px;
 }
 img {
   height: 900px;
+  /* width: max-content; */
+  
+}
+.main_img {
   opacity: 0.7;
 }
 h1 {
@@ -11,6 +15,10 @@ h1 {
 body  {
   text-align: center;
 }
+button {
+  opacity: 1;
+}
+
 .bookInfo {
     border: 1px solid white;
     color:  black;
@@ -20,14 +28,17 @@ body  {
     font-size: small;
 }
 
-
+.title {
+  text-emphasis: bold;
+}
 
 /* DRAG/DROP STYLING */
 .wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 10px;
-
+  position: fixed;
+  
 }
 
 #box {
@@ -49,18 +60,62 @@ body  {
   height: 150px;
   width: 250px;
   background-size: cover;
-  position: relative;
   margin: 40px 0 0 0;
   border: 1px solid #E9D8D8;
   border-radius: 12px;
- 
-  
-  
-
 }
 
+/* Landing page styling */
+.land_body {
+  background-color: #a4a3bf;
+  color: #302e41;
+}
+.welcome {
+  height: 170px;
+  width: 55%;
+  position: relative;
+  font-size: large;
+  padding-top: 5%;
+ 
+}
 
+.land_img {
+  width: 100%;
+  size: cover;
+  position: relative;
+}
 
 @media (max-width:959px) {
+  header {
+    height: 50px;
+  }
+    img {
+    height: 400px;
+    width:  400px;
+  
+  }
+  h1 {
+    font-size: small;
+  }
+    #box {
+    height: 100%;
+    width: 80%;
+  }
+  .card {
+    width: 50%;
+    height: 20%;
+  }
+  .bookInfo {
+    width: 100%;
+    height: 100%;
+    font-size: x-small;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+  }
 
-}
+  .welcome {
+   height: 20%;
+   font-size: small;
+  }
+  }

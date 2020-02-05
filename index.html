@@ -4,90 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Book Scheduler</title>
+    <title>NYT Best Seller Shelf</title>
     <link rel="stylesheet" href="style.css"> 
-    <!-- <script
-    src="https://code.jquery.com/jquery-3.4.1.min.js"
-    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-    crossorigin="anonymous"></script> -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="app.js" charset="utf-8"></script>
-   
 </head>
 <header>
-    <button id="search" type="button">Click Me</button>
-    <h1>Book Review Finder</h1>
-   
-    <img src="images/undraw_book_lover_mkck.svg">
-    
-</header>
+    <div class="welcome">
+        <h2>The New York Times has been publishing a list of the United States best selling books for nearly 100 years.
+            <br>Each week they compile multiple lists for each genre.
+            You can browse this week's top five and save them to your bookshelf.</h2>
+        <button onclick="window.location.href = 'main.html';">Go To My Bookshelf</button>
+        <!-- <a href="main.html" class="button">Go to My Bookshelf</a> -->
 
-<body>
-    
-    <!-- DRAG/DROP ZONE -->
-    <div class="wrapper">
-        <div class="dragzone" id="box">
-            <h1>New York Time's Top Five Best Sellers This Week</h1>
-            <!-- CARD 0 -->
-            <div id="card0" class="card" draggable="true" ondragstart="dragStart(event)">
-                <div class="bookInfo">
-                    <div id="rank0" class="rank"></div>
-                    <div id="title0"></div>
-                    <div id="author0"></div>
-                    <div id="summary0"></div>
-                    <div id="image0"></div>
-                    <div id="results"></div>
-                </div>
-            </div>
-            <!-- CARD 1 -->
-            <div id="card1" class="card" draggable="true" ondragstart="dragStart(event)">
-                <div class="bookInfo">
-                    <div id="rank1" class="rank"></div>
-                    <div id="title1"></div>
-                    <div id="author1"></div>
-                    <div id="summary1"></div>
-                    <div id="image1"></div>
-                    <div id="results"></div>
-                </div>
-            </div>
-            <!-- CARD 2 -->
-            <div id="card2" class="card" draggable="true" ondragstart="dragStart(event)">
-                <div class="bookInfo">
-                    <div id="rank2" class="rank"></div>
-                    <div id="title2"></div>
-                    <div id="author2"></div>
-                    <div id="summary2"></div>
-                    <div id="image2"></div>
-                    <div id="results"></div>
-                </div>
-            </div>
-            <!-- CARD 3 -->
-            <div id="card3" class="card" draggable="true" ondragstart="dragStart(event)">
-                <div class="bookInfo">
-                    <div id="rank3" class="rank"></div>
-                    <div id="title3"></div>
-                    <div id="author3"></div>
-                    <div id="summary3"></div>
-                    <div id="image3"></div>
-                    <div id="results"></div>
-                </div>
-            </div>
-            <!-- CARD 4 -->
-            <div id="card4" class="card" draggable="true" ondragstart="dragStart(event)">
-                <div class="bookInfo">
-                    <div id="rank4" class="rank"></div>
-                    <div id="title4"></div>
-                    <div id="author4"></div>
-                    <div id="summary4"></div>
-                    <div id="image4"></div>
-                    <div id="results"></div>
-                </div>
-            </div>
-        </div>
-
-        <div class="dropzone" id="box" ondragover="allowDrop(event)" ondrop="drop(event)">
-        </div>
     </div>
-    
+</header>
+<body class="land_body">
+    <img class="land_img"src="images/undraw_researching_22gp.svg">
+
 </body>
 </html>
