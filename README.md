@@ -2,7 +2,7 @@
 Project 1 - NYT Best Seller Shelf
 https://git.generalassemb.ly/ira/SEIR-FLEX-123/tree/master/projects/project_1
 
-https://LoganneF.github.io
+https://BestSellerSaver.github.io
 
 
 The concept:
