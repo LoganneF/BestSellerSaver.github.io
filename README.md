@@ -2,8 +2,7 @@
 Project 1 - NYT Best Seller Shelf
 https://git.generalassemb.ly/ira/SEIR-FLEX-123/tree/master/projects/project_1
 
-https://BestSellerSaver.github.io
-
+http://logannef.com/BestSellerSaver.github.io/
 
 The concept:
 A place to find current top five NYT best sellers and store them as a "wish list"
